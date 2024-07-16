@@ -1,0 +1,106 @@
+.myImage{
+  height: 180px;
+  width: 100px;
+}
+
+.Navbar{
+  font-family: gilroy;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page1{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(133, 226, 226);
+gap:120px;
+}
+
+.inputText{
+  padding: 10px 160px;
+}
+
+.myName{
+  font-size: 20px;
+  font-weight: 800;
+}
+.mains{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(42, 134, 165);
+}
+
+.randerData{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: end;
+}
+
+.product-card {
+  border: 1px solid #dee6c8;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+  height: 350px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product-card img {
+  width: 40;
+  height: 30;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.product-card p {
+  margin: 5px 0;
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.buttons {
+  margin: 20px 0;
+
+}
+.buttons button {
+  padding: 10px 40px;
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: rgb(187, 220, 98);
+}
+
+.addCardbtn {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card{
+  height: 180px;
+  width: 180px;
+  background-color: pink;
+}
+
+.card h1{
+  font-size: 60px;
+  background-color: green;
+}
+
+.totalPrice {
+  font-size: 24px;
+  font-weight: bold;
+  height: 20px;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="page1">
+        <div class="Navbar">
+            <h1>Products Items</h1>
+            <input class="inputText" type="text" placeholder="Search" oninput="searchProducts(this.value)" />
+            <h1>Categories</h1>
+            <div class="buttons">
+                <button onclick="filterData('Men')">Men</button>
+                <button onclick="filterData('Women')">Women</button>
+                <button onclick="filterData('Kids')">Kids</button>
+                <h1 onclick="displayAllData()"></h1>
+            </div>
+        </div>
+        <!-- <div>
+            <div class="card">
+                <h1><i class="ri-id-card-fill"></i></h1>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="mains">
+        <div class="randerData">
+            <div class="Page2"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
